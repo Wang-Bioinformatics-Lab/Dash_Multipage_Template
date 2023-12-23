@@ -50,12 +50,12 @@ cache = Cache(app, config={
 NAVBAR = dbc.Navbar(
     children=[
         dbc.NavbarBrand(
-            html.Img(src="https://gnps-cytoscape.ucsd.edu/static/img/GNPS_logo.png", width="120px"),
-            href="https://gnps.ucsd.edu"
+            html.Img(src="https://wang-bioinformatics-lab.github.io/GNPS2_Documentation/img/logo/GNPS2_logo_blue-grey-black.png", width="120px"),
+            href="https://www.cs.ucr.edu/~mingxunw/"
         ),
         dbc.Nav(
             [
-                dbc.NavItem(dbc.NavLink("GNPS - Template Dashboard - Version 0.1", href="#")),
+                dbc.NavItem(dbc.NavLink("GNPS2 - Template Dashboard - Version 0.1", href="#")),
             ],
         navbar=True)
     ],
